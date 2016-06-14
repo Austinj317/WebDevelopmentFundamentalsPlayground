@@ -2,5 +2,12 @@
 
 body{  
 	font-family: Arial;
-	background: rgb(35,150,100);
+	background: #00F5FF;
+}
+
+h1 {
+	color:red;
+}
+.alt{
+	color:blue;
 }
