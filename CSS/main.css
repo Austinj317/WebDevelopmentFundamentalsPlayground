@@ -2,12 +2,22 @@
 
 body{  
 	font-family: Arial;
-	background: #00F5FF;
+	background: #00ffc5;
 }
 
 h1 {
-	color:red;
+	color: grey;
 }
-.alt{
+.alt {
 	color:blue;
 }
+
+#dog{
+	color:black;
+}
+.css-statements{
+	border:3px solid black;}
+
+.uses{
+	border: 3px double white;
+}	
