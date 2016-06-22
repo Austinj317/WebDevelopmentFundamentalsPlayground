@@ -4,26 +4,55 @@
 		<title> JavaScript Playground</title>
 		<link rel="stylesheet" type="text/css"href="../css/main.css">
 		<link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
-
+		
 	</head>
 	<body>
-
 		<div class="nav">
-		<ul>
-			<li><a href="../index.html">Home</a></li>
-			<li><a href="HTML Playground.html">HTML</a></li>
-			<li><a href="CSS Playground.html">CSS</a></li>
-			<li><a href="Bootstrap PLayground.html">Bootstrap</a></li>
-			<li><a href="Javascript PLayground.html">JavaScript</a></li>
-			<li><a href="jQuery Playground.html">jQuery</a></li>
-			<li><a href="Git Playground.html">Git</a></li>
-			<li><a href="Resources PLayground.html">Resources</a></li>
-		</ul>
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="HTML Playground.html">HTML</a></li>
+				<li><a href="CSS Playground.html">CSS</a></li>
+				<li><a href="Bootstrap PLayground.html">Bootstrap</a></li>
+				<li><a href="Javascript PLayground.html">JavaScript</a></li>
+				<li><a href="jQuery Playground.html">jQuery</a></li>
+				<li><a href="Git Playground.html">Git</a></li>
+				<li><a href="Resources PLayground.html">Resources</a></li>
+			</ul>
 		</div>
 		<div "black" style = "color:black;border:double">		
-		<h1>JavaScript Items</h1>
+			<h1>JavaScript Items</h1>
+				
+			<h2>Age</h2>
+				<p>I am <a id="my-age"></a> years old.</p>
+			<h2>Birth Year</h2>
+				<p>I was born in <a id="birth-year"></a>.</p>
+			<h2>Grad. Year</h2>	
+				<p>I will graduate in <a id="grad-year"></a>.</p>
+			<h2>Siblings</h2>	
+				<p>I have <a id="siblings"></a> brothers.</p>		
+			<h2>Funny Line</h2>
+				<p><a id="reveal-funny-line"></a></p>
+				<button onclick="revealFunny()">See something funny</button>
+
+			<h2>2 truths, 1 lie</h2>
+				<h3>I am a rapper</h3>
+				<h3>I know how to do a backflip.</h3>
+				<h3>I like Christina Perri</h3>
+				<p><a id="reveal-lie"></a></p>
+				<button onclick="reveallie()">Heres the lie</button>	
+
+			<h2>Functions</h2>	
+				<h3>Guess My favorite Band.</h3>
+				<p><a id="favband"></a></p>
+				<button onclick="band()">My fav Band is...</button>
+				<h3>Worst song ever</h3>
+				<p><a id="worstsong"></a></p>
+				<button onclick="worst()">Click to reveal</button>
+				<h3>Best song ever</h3>
+				<p><a id="best"></a></p>
+				<button onclick="best()">Click to reveal</button>
 
 		</div>
+		<script src="../js/scripts.js"></script>
 	</body>	
-
 </html>	

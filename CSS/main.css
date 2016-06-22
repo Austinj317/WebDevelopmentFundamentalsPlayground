@@ -1,24 +1,30 @@
-/* CSS Items */
+/* Page Items */
 
-body{  
+body{
 	font-family: 'Righteous', cursive;
-	
-	background-image:url("../Images/sinister.jpg");
+	background-image:url("../Images/tri.jpg");
 	background-attachment: fixed;
 }
 
-
-h1 {
+h1,h2,h3,h4,li,p,td {
 	color: #ffffff;
 }
-h2 { 
-color:#ffffff;}
-h1,h2,h3,h4,li,p {color: #ffffff;}
 
-.css-statements{border:3px solid black;}
+#my-age,#birth-year, #grad-year, #siblings {
+	color: #19ffff;
+}
 
-.uses{border: 3px double white;
-	background-color: rgba(0,0,0,.5)}	
+/* CSS Items*/
+
+.css-statements{
+	border:3px solid black;
+}
+
+.uses{
+	border: 3px double white;
+	background-color: rgba(0,0,0,.5)
+}	
+
 /*  Nav Bar Css */
 
 .nav ul{
@@ -28,95 +34,104 @@ h1,h2,h3,h4,li,p {color: #ffffff;}
 	overflow: hidden;
 	background-color: rgba(0,0,0,.4);
 }
-.nav li{
-	float:left;
 
-}
+.nav li{float:left;}
+
 .nav li a{
 	display: inline-block;
 	color: #ffffff;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-
 }
+
 .nav li a:hover{
-	background-color: grey;	
+	background-color: grey;
 }
 
 .black{
 	border: 7px double white;
 }
 
-
+/*Smiley Face*/
 
 .smileyface{
-  height: 300px;
+	height: 300px;
 	width: 300px;
 	position: center;
 	border: 5px solid black;
-  border-radius: 150px;
+	border-radius: 150px;
 }
+
 .smileyface{
-  background-color: #19ffff;
+	background-color: #19ffff;
 }
+
 .smileyface .lefteye{
-height: 50px;
+	height: 50px;
 	width: 50px;
 	border-radius: 25px;
 	position: relative;
-  top:110px;
-  right:-50px;
+	top:110px;
+	right:-50px;
 }
+
 .smileyface .lefteye{
-  background-color:black;
+	background-color:black;
 }
+
 .smileyface .righteye{
- height: 50px;
+	height: 50px;
 	width: 50px;
 	border-radius: 25px;
 	position: relative;
-  top:41px;
-  right:-200px;
- 
+	top:41px;
+	right:-200px;
 }
+
 .smileyface .righteye{
-  background-color:black;
+	background-color:black;
 }
 
 .smileyface .smile{
-  width:100px; height:60px;  
-  border:solid 5px #000;
-  border-color: #000 transparent transparent transparent;
-  border-radius: 50%/ 0 0 100px 100px;
-  position:relative;
-  right:-95px;
-  top:80px;
-  background-color:black;
-    
+	width:100px; height:60px;  
+ 	border:solid 5px #000;
+ 	border-color: #000 transparent transparent transparent;
+ 	border-radius: 50%/ 0 0 100px 100px;
+ 	position:relative;
+ 	right:-95px;
+ 	top:80px;
+ 	background-color:black;
 }
 
 .smileyface .lefteye2{
-height: 20px;
+	height: 20px;
 	width: 20px;
 	border-radius: 25px;
 	position: relative;
-  top:80px;
-  right:-65px;
-  background-color:white;
-}
+ 	top:80px;
+ 	right:-65px;
+ 	background-color:white;
+ }
+
 .smileyface .righteye2{
-height: 20px;
+	height: 20px;
 	width: 20px;
 	border-radius: 25px;
 	position: relative;
-  top:11px;
-  right:-215px;
-  background-color:#ffffff;
+ 	top:11px;
+ 	right:-215px;
+ 	background-color:#ffffff;
+ }
+
+/* Bootstrap page items*/
+
+.project-box-1{
+	height: 300px;
+	background-color: grey;
 }
 
-.project-box-1{height: 300px;
-	background-color: grey;}
-
-.project-box-2{height: 300px;
-	background-color: #eeeeee;}
+.project-box-2{
+	height: 300px;
+	background-color: #cccccc;
+}
